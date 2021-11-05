@@ -11,7 +11,7 @@ parameters {
 stages {
   stage('fetch_latest_code') {
     steps {
-      git url: 'https://github.com/lguarnier/vorx-iac-farias.git;, branch: 'main'
+      git url: 'https://github.com/lguarnier/vorx-iac-farias.git, branch: 'main'
     }
   }
 
